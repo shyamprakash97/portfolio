@@ -1,0 +1,146 @@
+/* styles.css */
+
+/* Global Styles */
+* {
+  margin: 0 1.5% 0 1.5%;
+  /* margin: 0; */
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 100dvh;
+}
+
+.content {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+  margin-bottom: 10px;
+  font-size: 36px;
+}
+
+.designation {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.contact-info {
+  margin-bottom: 30px;
+}
+
+.contact-info a {
+  color: #3498db;
+}
+
+.section-heading {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.internship,
+.work-experience,
+.project,
+.certification,
+.education {
+  margin-bottom: 30px;
+}
+
+.job-title {
+  margin: 0;
+  font-size: 20px;
+}
+
+.company {
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.dates {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.internship-details,
+.experience-details {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.skills {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.skills li {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.project-title {
+  margin: 0;
+  font-size: 20px;
+}
+
+.project-description {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.project-tech {
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.certification-title {
+  margin: 0;
+  font-size: 20px;
+}
+
+.certification-provider {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.education-degree {
+  margin: 0;
+  font-size: 20px;
+}
+
+.education-institution {
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.dates {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.education-details {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #666;
+}
